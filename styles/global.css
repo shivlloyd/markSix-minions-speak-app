@@ -49,6 +49,7 @@ button {
     border-radius: 2rem;
     font-family: 'Courgette';
     font-size: large;
+    cursor: pointer;
 }
 
 #output {
