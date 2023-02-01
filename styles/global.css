@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courgette';
+    color: var(--black);
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    border-bottom-right-radius: 2rem ;
+    border-bottom-left-radius: 2rem ;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: inherit;
+    border-radius: 2rem ;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-family: 'Courgette';
+    font-size: large;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 20vh;
+    padding: 2rem;
+    border: 1px solid var(--black);
+    border-radius: 2rem ;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    border-top-right-radius: 2rem ;
+    border-top-left-radius: 2rem ;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
